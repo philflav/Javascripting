@@ -1,0 +1,22 @@
+{
+  "name": "Javascripting",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "array-filtering.js",
+  "scripts": {
+    "test": "ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philflav/Javascripting.git"
+  },
+  "author": "phil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philflav/Javascripting/issues"
+  },
+  "homepage": "https://github.com/philflav/Javascripting",
+  "dependencies": {
+    "express": "^4.10.2"
+  }
+}
