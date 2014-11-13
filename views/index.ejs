@@ -1,8 +1,14 @@
 <html>
+<!doctype html>
+<html lang="en">
 <head>
 	<title>My View</title>
+	<link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.css">
 </head>
+<script src="/jquery/dist/jquery.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.js"></script>
 <body>
+	<div class="container>"
 <h1><%= title %></h1>
 <ul>
 	<% for(var i=0;i<items.length;i++){ %>
@@ -13,5 +19,6 @@
 	<input type="text" name="newItem">
 	<input type="submit">
 </form>
+	</div>
 </body>
 </html>
