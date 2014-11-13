@@ -27,7 +27,7 @@ app.get('/', function (req, res){
 });
 app.post('/add', function (req, res){
 	var newItem = req.body.newItem;
-	todoItems.push({id:todoItems.lenght+1,
+	todoItems.push({id:todoItems.length+1,
 		desc: newItem});
 	res.redirect('/');
 	

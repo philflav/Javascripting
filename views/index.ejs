@@ -12,7 +12,7 @@
 <h1><%= title %></h1>
 <ul>
 	<% for(var i=0;i<items.length;i++){ %>
-		<li><%= items[i].desc %></li>
+		<li><%= items[i].id + ": " + items[i].desc %></li>
 	<% } %>
 </ul>
 <form action ="/add" method="post">
