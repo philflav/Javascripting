@@ -32,6 +32,9 @@ app.post('/add', function (req, res){
 	res.redirect('/');
 	
 });
-app.listen(1337, function(){
-	console.log('Ready on port 1337');
+
+var port = process.env.PORT || 1337;
+
+app.listen(port, function(){
+	console.log('Ready on port ' + port);
 });
